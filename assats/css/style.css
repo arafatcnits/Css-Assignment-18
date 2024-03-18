@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: carrois gothic;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+}
+.main_div {
+    background: #ffffff;
+    width: 950px;
+    height: 500px;
+    display: flex;
+    transform: translateX(30%) translateY(22%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(136, 136, 136,0.2);
+    border-top-left-radius:50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.from_text {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.from_items {
+    width: 40%;
+    background: white;;
+}
+.from_items {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.from_text {
+    width: 60%;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);    
+}
+.from_items {
+    padding: 0px 0px 0px 30px;
+}
+.from_items h2{
+    font-size: 35px;
+    padding: 100px 0px 20px 0px;
+    color: #784BA0;
+}
+.from_text h1{
+    font-size: 35px;
+    padding: 180px 0px 0px 0px;
+}
+.from_text {
+    color: white;
+    padding: 0px 0px 0px 50px;
+}
+.from_text p{
+    font-size: 18px;
+    padding: 25px 0px 0px 0px;
+}
+.account {
+    padding: 50px 0px 0px 0px;
+    font-size: 16px;
+}
+/* .form {
+    padding: 10px 0px 0px 0px;
+} */
+input {
+    margin: 15px 0px 0px;
+    outline: none;
+    width: 320px;
+    height: 45px;
+    border: 1px solid black;
+    padding: 0px 0px 0px 25px;
+    background: #eae6ff;
+    border-radius: 50px;
+    color: #bfbdc8,black;
+    border: none;
+}
+input::placeholder{
+    color:#784BA0;
+    font-size: 15px;
+}
+.password{
+   padding: 15px 0px 15px 0px;
+}
+.password a{
+    text-decoration: none;
+    color: #784BA0;
+}
+button{
+    width: 320px;
+    height: 45px;
+    border: none;
+    margin: 15px 0px 0px 0px;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    border-radius: 50px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
